@@ -6,7 +6,6 @@ module full_adder_tb();
     full_adder dut(a, b, cin, sum, carry);
 
     integer i;
-
     initial begin
         // Apply inputs using a loop
         for(i = 0; i < 8; i = i + 1) begin
