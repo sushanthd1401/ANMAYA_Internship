@@ -11,6 +11,6 @@ clk=1'b0;
 rst=1'b0;
 #12 rst=1'b1;
 #12 rst=1'b0;
-#500 $finish;
+#500 $finish; 
 end
 endmodule
