@@ -1,4 +1,4 @@
-module asyn_4bit_up_pos(clk,rst,count);
+module async_4bit_up_pos(clk,rst,count);
 input clk,rst;
 output [3:0]count;
 
